@@ -9,9 +9,4 @@ class MethodChannelCastlib extends CastlibPlatform {
   @visibleForTesting
   final methodChannel = const MethodChannel('castlib');
 
-  @override
-  Future<String?> getPlatformVersion() async {
-    final version = await methodChannel.invokeMethod<String>('getPlatformVersion');
-    return version;
-  }
 }
