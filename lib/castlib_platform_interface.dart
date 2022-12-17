@@ -22,4 +22,20 @@ abstract class CastlibPlatform extends PlatformInterface {
     PlatformInterface.verifyToken(instance, _token);
     _instance = instance;
   }
+
+  Future<dynamic> showConnectionDialog() {
+    throw UnimplementedError('showConnectionDialog() has not been implemented.');
+  }
+
+  Future<dynamic> isConnected() {
+    throw UnimplementedError('isConnected() has not been implemented.');
+  }
+
+  Future<dynamic> showControlDialog() {
+    throw UnimplementedError('showControlDialog() has not been implemented.');
+  }
+
+  Future<dynamic> startCasting(Map<String, dynamic> data) {
+    throw UnimplementedError('startCasting() has not been implemented.');
+  }
 }
