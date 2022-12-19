@@ -1,0 +1,36 @@
+PODS:
+  - castlib (0.0.1):
+    - Flutter
+    - google-cast-sdk-no-bluetooth (= 4.4.7)
+  - Flutter (1.0.0)
+  - google-cast-sdk-no-bluetooth (4.4.7):
+    - google-cast-sdk-no-bluetooth/Core (= 4.4.7)
+    - Protobuf (~> 3.0)
+  - google-cast-sdk-no-bluetooth/Core (4.4.7):
+    - Protobuf (~> 3.0)
+  - Protobuf (3.21.12)
+
+DEPENDENCIES:
+  - castlib (from `.symlinks/plugins/castlib/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - google-cast-sdk-no-bluetooth
+    - Protobuf
+
+EXTERNAL SOURCES:
+  castlib:
+    :path: ".symlinks/plugins/castlib/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  castlib: 7fef542fd185bc2a153203e932dfa75dc05e4827
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  google-cast-sdk-no-bluetooth: 197acace9d5a78380bdaef8d45439b2250fa050b
+  Protobuf: 120350fc38646e2dedc26f49ecba778184ea1de2
+
+PODFILE CHECKSUM: 1d72ea48ec6f9b57751745f3fa960f6b017e8f59
+
+COCOAPODS: 1.11.3
