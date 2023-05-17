@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MediaRouter.Light" parent="Theme.AppCompat">
+        <item name="android:background">#FFFFFF</item>
+    </style>
+    <style name="Theme.CastVideosDark" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#000000</item>
+    </style>
+</resources>

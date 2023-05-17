@@ -16,4 +16,8 @@ class Castlib {
   Future<dynamic> startCasting(Map<String, dynamic> data) {
     return CastlibPlatform.instance.startCasting(data);
   }
+
+  Future<dynamic> stopCasting() {
+    return CastlibPlatform.instance.stopCasting();
+  }
 }

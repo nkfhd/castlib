@@ -38,4 +38,8 @@ abstract class CastlibPlatform extends PlatformInterface {
   Future<dynamic> startCasting(Map<String, dynamic> data) {
     throw UnimplementedError('startCasting() has not been implemented.');
   }
+
+  Future<dynamic> stopCasting() {
+    throw UnimplementedError('stopCasting() has not been implemented.');
+  }
 }

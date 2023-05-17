@@ -58,8 +58,15 @@ class _MyAppState extends State<MyApp> {
           'https://thekee-m.gcdn.co/images06012022/uploads/media/series/posters/2022-09-27/0ObHcBVUnfpzbtIB.jpg',
       "mediaUrl":
           "https://thekee.gcdn.co/video/m-159n/English/Animation&Family/Baby.Shark.Best.Kids.Song/S01/01.mp4",
-      "playPosition": '50',
+      "playPosition": "50",
     });
+    if (kDebugMode) {
+      print("result: $result");
+    }
+  }
+
+  _stopCasting() async {
+    var result = await _castlibPlugin.stopCasting();
     if (kDebugMode) {
       print("result: $result");
     }
@@ -88,6 +95,10 @@ class _MyAppState extends State<MyApp> {
             ElevatedButton(
               onPressed: _startCasting,
               child: const Text('Start Casting'),
+            ),
+            ElevatedButton(
+              onPressed: _stopCasting,
+              child: const Text('Stop Casting'),
             ),
             ElevatedButton(
               onPressed: _showControlDialog,

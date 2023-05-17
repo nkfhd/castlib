@@ -28,4 +28,9 @@ class MethodChannelCastlib extends CastlibPlatform {
   Future<dynamic> startCasting(Map<String, dynamic> data) async {
     return await methodChannel.invokeMethod('start_casting', data);
   }
+
+  @override
+  Future<dynamic> stopCasting() async {
+    return await methodChannel.invokeMethod('stop_casting');
+  }
 }
