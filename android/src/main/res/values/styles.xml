@@ -4,6 +4,11 @@
         <item name="android:background">#FFFFFF</item>
     </style>
     <style name="Theme.CastVideosDark" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FFFFFF</item>
         <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#F44B4B</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#FFFFFF</item>
     </style>
+
 </resources>
